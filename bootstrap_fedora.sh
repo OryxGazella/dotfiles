@@ -21,10 +21,10 @@ wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 rpm --import linux_signing_key.pub
 
 #Oracle Java JDK
-wget http://download.oracle.com/otn-pub/java/jdk/7u10-b18/jdk-7u10-linux-x64.rpm
-rpm -Uvh /path/to/binary/jdk-7u10-linux-x64.rpm
+#wget http://download.oracle.com/otn-pub/java/jdk/7u10-b18/jdk-7u10-linux-x64.rpm
+#rpm -Uvh /path/to/binary/jdk-7u10-linux-x64.rpm
 
-#echo "[google]
+echo "[google]
 name=Google Chrome 64-bit
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64" >> /etc/yum.repos.d/google.repo
 
