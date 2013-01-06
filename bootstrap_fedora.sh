@@ -20,10 +20,6 @@ wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 ##Add repo
 rpm --import linux_signing_key.pub
 
-#Oracle Java JDK
-#wget http://download.oracle.com/otn-pub/java/jdk/7u10-b18/jdk-7u10-linux-x64.rpm
-#rpm -Uvh /path/to/binary/jdk-7u10-linux-x64.rpm
-
 echo "[google]
 name=Google Chrome 64-bit
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64" >> /etc/yum.repos.d/google.repo
@@ -40,7 +36,7 @@ yum -y install ffmpeg ffmpeg-libs
 #rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
 #yum -y install AdobeReader_enu
 #install rvm as local user
-
+yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel
 #delete the temp directory
 cd ..
 rm -rf temp
