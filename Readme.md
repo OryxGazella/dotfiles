@@ -1,12 +1,7 @@
-#Fedora 17 bootstrap
-Installs some useful stuff for fedora core
+# My dotfiles
 
-``` bash
-sudo bash
-yum -y install wget
-wget https://raw.github.com/OryxGazella/dotfiles/master/bootstrap_fedora.sh
-chmod +x bootstrap_fedora.sh
-./bootstrap_fedora.sh
-```
+* tmux configuration
+* local bash changes
 
-I'll add stuff as I go along.
+    ln -s bashrc ~/.bashrc
+    ln -s tmux.conf ~/.tmux.conf
