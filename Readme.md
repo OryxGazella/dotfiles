@@ -2,6 +2,7 @@
 
 * tmux configuration
 * local bash changes
+* global git ignore
 
     ln -s bashrc ~/.bashrc
     ln -s tmux.conf ~/.tmux.conf
