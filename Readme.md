@@ -1,12 +1,14 @@
 # My dotfiles
 
 * tmux configuration
-* local bash changes
 * global git ignore
+* .profile
+* .bash_profile
 
 ``` bash
-$ ln -s bashrc ~/.bashrc
-$ ln -s tmux.conf ~/.tmux.conf
-$ ln -s cvsignore ~/.cvsignore
+$ ln -s ~/<path_to_local_repo>/bash_profile ~/.bash_profile
+$ ln -s ~/<path_to_local_repo>/profile ~/.profile
+$ ln -s ~/<path_to_local_repo>/tmux.conf ~/.tmux.conf
+$ ln -s ~/<path_to_local_repo>/cvsignore ~/.cvsignore
 $ git config --global core.excludesfile '~/.cvsignore' 
 ```
