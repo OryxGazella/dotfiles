@@ -1,1 +1,3 @@
-export PATH=/usr/local/bin:$PATH
+alias serve="python -m SimpleHTTPServer"
+alias l='ls -CF'
+alias ll='ls -alF'
