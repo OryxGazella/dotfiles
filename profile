@@ -16,7 +16,7 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export PATH="/home/frank/miniconda2/bin:/home/linuxbrew/.linuxbrew/bin:$PATH"
 export MANPATH="/home/linuxbrew/.linuxbrew/share/man${MANPATH+:$MANPATH}"
 export HOMEBREW_EDITOR=vi
 export INFOPATH="/home/linuxbrew/.linuxbrew/share/info${INFOPATH+:$INFOPATH}"
